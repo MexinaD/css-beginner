@@ -10,8 +10,10 @@ body {
 
 /* This is a comment, by the way */
 
+    
 p {
-    line-height: 21px;
+    line-height: 21px
+
 }
 
 h1 {
@@ -76,4 +78,26 @@ table {
 .intro {
     color: red;
     font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
 }
