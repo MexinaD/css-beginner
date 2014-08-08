@@ -22,6 +22,7 @@ p {
 
 }
 
+
 h1 {
     color: #ffc;
     background-color: #900;
@@ -58,6 +59,8 @@ img {
 }
 
 a {
+    display: inline-block;
+    padding: 20px 10px;
     text-decoration: none;
 }
 
