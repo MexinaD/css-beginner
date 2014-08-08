@@ -3,9 +3,10 @@ body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
     color: black;
-    background-color: #ffc;
     margin: 20px;
     padding: 0;
+    background: white url(http://www.htmldog.com/badge1.gif) repeat-y top right;
+
 }
 
 /* This is a comment, by the way */
