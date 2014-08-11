@@ -143,4 +143,10 @@ input:focus, textarea:focus {
     background: #fc0; 
     padding: 20px;
     border-radius:  3px 6px 9px 12px;
+
+}
+
+#top *{
+     display: block;
+     text-shadow: 0 0 0;
 }
