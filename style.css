@@ -67,10 +67,11 @@ img {
     border-width: 2px;
     border-color: #ccc;
 }
-
-a {
-    display: inline-block;
+ a {
+    display: block;
     padding: 20px 10px;
+}
+ a{
     text-decoration: none;
 }
 
@@ -119,4 +120,24 @@ a:hover {
 
 input:focus, textarea:focus {
     background: #eee;
+}
+
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+    margin-left: 200px;
+}
+
+
+#marilyn {
+    border: 5px solid #8b2;
+    background: #fc0; 
+    padding: 20px;
+    border-radius:  3px 6px 9px 12px;
 }
