@@ -19,6 +19,9 @@ p {
     border-width: 1px 5px 5px 1px;
     border-color: red green blue yellow;
     margin: 10px 50px;
+    
+    text-shadow: -2px 2px 2px #999;
+
 
 }
 
