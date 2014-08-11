@@ -151,6 +151,8 @@ input:focus, textarea:focus {
      text-shadow: 0 0 0;
 }
 
+#top h1 + p {font-style: italic}
+
 #list > li{
     border: 1px solid red 
 }
