@@ -150,3 +150,7 @@ input:focus, textarea:focus {
      display: block;
      text-shadow: 0 0 0;
 }
+
+#list > li{
+    border: 1px solid red 
+}
