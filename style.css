@@ -94,7 +94,7 @@ table {
 
 
 #top {
-    background-color: #ccc;
+    background-color: hsl(160, 50%, 60%);
     padding: 20px
 }
 
@@ -154,5 +154,5 @@ input:focus, textarea:focus {
 #top h1 + p {font-style: italic}
 
 #list > li{
-    border: 1px solid red 
+    border: 1px solid rgba(200, 0, 100, 1) 
 }
