@@ -107,6 +107,7 @@ table {
 }
 
 a:link {
+    transition: color .5s font-size .15s linear 5s; /*it doesnt work*/
     color: blue;
 }
 
@@ -120,7 +121,7 @@ a:active {
 
 a:hover {
     text-decoration: none;
-    color: blue;
+    color: hsl(140, 60%, 30%);
     background-color: yellow;
 }
 
@@ -140,4 +141,4 @@ input:focus, textarea:focus {
     }
 }
 
-a[href^=http]{color:purple;}
+a:link[href^=http]{color:purple;}
