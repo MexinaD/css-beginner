@@ -1,0 +1,30 @@
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+    margin-left: 200px;
+}
+
+
+#marilyn {
+    border: 5px solid #8b2;
+    background: #fc0; 
+    padding: 20px;
+    border-radius:  3px 6px 9px 12px;
+
+}
+
+#top *{
+     display: block;
+     text-shadow: 0 0 0;
+}
+
+#top h1 + p {font-style: italic}
+
+#list > li{
+    border: 1px solid rgba(200, 0, 100, 1) 
+}
