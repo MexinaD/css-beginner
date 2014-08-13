@@ -130,15 +130,32 @@ input:focus, textarea:focus {
 }
 
 
-@media screen, print, projection{
+@media screen, print, projection and (max-width: 1000px){
  body {
         font-size: 10pt;
         font-family: times, serif;
     }
 
-    #navigation {
+    #top {
         display: none;
     }
+}
+
+@media screen, print, projection and (min-width: 600px){
+ body {
+        font-size: 11pt;
+        font-family: times, serif;
+    }
+
+    #top {
+        display: block;
+    }
+}
+
+@media screen and (orientation: portrait) {
+
+    #top { float: none }
+
 }
 
 a:link[href^=http]{color:purple;}
