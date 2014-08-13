@@ -12,7 +12,7 @@
 
 #marilyn {
     border: 5px solid #8b2;
-    /*background: #fc0;*/
+    background: linear-gradient(to bottom right, green, #fc0, rgb(190,0,0));
     padding: 20px;
     border-radius:  3px 6px 9px 12px;
 
